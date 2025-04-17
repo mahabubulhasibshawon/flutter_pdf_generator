@@ -46,6 +46,22 @@ class _CertificateHomePageState extends State<CertificateHomePage> {
                   ),
                 ),
               ),
+
+              pw.Positioned(
+                left: 0,
+                right: 100,
+                top: 380,
+                child: pw.Center(
+                  child: pw.Text(
+                    "Exam",
+                    // textAlign: pw.TextAlign.center,
+                    style: pw.TextStyle(
+                      fontSize: 24,
+                      fontWeight: pw.FontWeight.bold,
+                    ),
+                  ),
+                ),
+              ),
             ],
           );
         },
